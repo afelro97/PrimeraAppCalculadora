@@ -23,14 +23,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        num1 = (EditText) findViewById(R.id.etNum1);
-        num2 = (EditText) findViewById(R.id.etNum2);
+        num1 = findViewById(R.id.etNum1);
+        num2 = findViewById(R.id.etNum2);
 
-        add = (Button) findViewById(R.id.btnAdd);
-        sub = (Button) findViewById(R.id.btnSub);
-        mult = (Button) findViewById(R.id.btnMult);
-        divi = (Button) findViewById(R.id.btnDiv);
-        result = (TextView) findViewById(R.id.tvAnswer);
+        add = findViewById(R.id.btnAdd);
+        sub = findViewById(R.id.btnSub);
+        mult = findViewById(R.id.btnMult);
+        divi = findViewById(R.id.btnDiv);
+        result = findViewById(R.id.tvAnswer);
 
         add.setOnClickListener(new View.OnClickListener() {
             @Override
